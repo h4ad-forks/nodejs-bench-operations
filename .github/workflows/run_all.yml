@@ -1,0 +1,200 @@
+
+name: 'Run All'
+
+on:
+  workflow_dispatch:
+
+jobs:
+  
+  add-property:
+    name: Running "add-property.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/add-property.js
+
+  array-append:
+    name: Running "array-append.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/array-append.js
+
+  array-creation:
+    name: Running "array-creation.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/array-creation.js
+
+  compare-using-instanceof:
+    name: Running "compare-using-instanceof.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/compare-using-instanceof.js
+
+  crypto-verify:
+    name: Running "crypto-verify.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/crypto-verify.js
+
+  date-format-iso:
+    name: Running "date-format-iso.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/date-format-iso.js
+
+  date-format:
+    name: Running "date-format.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/date-format.js
+
+  date-string-coersion:
+    name: Running "date-string-coersion.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/date-string-coersion.js
+
+  deleting-properties:
+    name: Running "deleting-properties.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/deleting-properties.js
+
+  error:
+    name: Running "error.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/error.js
+
+  function-return:
+    name: Running "function-return.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/function-return.js
+
+  includes-vs-raw-comparison:
+    name: Running "includes-vs-raw-comparison.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/includes-vs-raw-comparison.js
+
+  keys-vs-getownpropertynames:
+    name: Running "keys-vs-getownpropertynames.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/keys-vs-getownpropertynames.js
+
+  last-array-item:
+    name: Running "last-array-item.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/last-array-item.js
+
+  object-creation:
+    name: Running "object-creation.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/object-creation.js
+
+  optional-chain-vs-and-operator:
+    name: Running "optional-chain-vs-and-operator.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/optional-chain-vs-and-operator.js
+
+  parse-int:
+    name: Running "parse-int.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/parse-int.js
+
+  possible-undefined-function:
+    name: Running "possible-undefined-function.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/possible-undefined-function.js
+
+  private-property:
+    name: Running "private-property.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/private-property.js
+
+  property-access-transition:
+    name: Running "property-access-transition.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/property-access-transition.js
+
+  property-getter-access:
+    name: Running "property-getter-access.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/property-getter-access.js
+
+  property-setter-access:
+    name: Running "property-setter-access.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/property-setter-access.js
+
+  replace-vs-replaceall-comparison:
+    name: Running "replace-vs-replaceall-comparison.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/replace-vs-replaceall-comparison.js
+
+  shallow-copy:
+    name: Running "shallow-copy.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/shallow-copy.js
+
+  sort-map:
+    name: Running "sort-map.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/sort-map.js
+
+  spread-vs-object-assign:
+    name: Running "spread-vs-object-assign.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/spread-vs-object-assign.js
+
+  stream-readable:
+    name: Running "stream-readable.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/stream-readable.js
+
+  stream-writable:
+    name: Running "stream-writable.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/stream-writable.js
+
+  string-concat:
+    name: Running "string-concat.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/string-concat.js
+
+  string-searching:
+    name: Running "string-searching.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/string-searching.js
+
+  super-vs-this:
+    name: Running "super-vs-this.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/super-vs-this.js
+
+  unix-time:
+    name: Running "unix-time.js"
+    uses: ./.github/workflows/bench.yml
+    with:
+      bench-file: bench/unix-time.js
+
