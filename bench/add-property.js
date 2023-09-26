@@ -2,6 +2,8 @@ const Benchmark = require('benchmark')
 const suite = new Benchmark.Suite;
 const { eventToMdTable, H2, createTableHeader } = require('../markdown')
 
+throw new Error('failure!')
+
 const tableHeader = createTableHeader([
   'name',
   'ops/sec',
