@@ -53,7 +53,7 @@ jobs:
             Workflow name - `${{ github.workflow }}`
             Job -           `${{ github.job }}`
             status -        `${{ job.status }}`
-          assignees: RafaelGSS
+          assignees: h4ad
 
       - name: Append Machine Info to Benchmark Result
         run: node scripts/machine-info.mjs >> ./bench-result.md
